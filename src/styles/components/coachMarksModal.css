@@ -1,0 +1,133 @@
+.modalContainer {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 2;
+}
+
+.modalContent {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.h2TextStyle {
+    width: 100%;
+    top: 20%;
+    left: 50%;
+    line-height: 2;
+    font-size: 18px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: 400;
+    color: white;
+}
+
+.pTextStyle1 {
+    position: absolute;
+    width: 100%;
+    top: 32.5%;
+    left: 50%;
+    line-height: 2;
+    font-size: 16px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: 400;
+    color: white;
+}
+.pTextStyle2 {
+    position: absolute;
+    width: 100%;
+    top: 48%;
+    left: 50%;
+    line-height: 2;
+    font-size: 16px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: 400;
+    color: white;
+}
+.pTextStyle3 {
+    position: absolute;
+    width: 100%;
+    top: 63%;
+    left: 50%;
+    line-height: 2;
+    font-size: 16px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: 400;
+    color: white;
+}
+
+.pTextStyle4 {
+    position: absolute;
+    width: 100%;
+    bottom: 70px;
+    left: 50%;
+    line-height: 5;
+    font-size: 12px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: 400;
+    color: white;
+}
+
+.pTextStyle5 {
+    position: absolute;
+    top: 14px;
+    right: 90px;
+    line-height: 2;
+    font-size: 12px;
+    text-align: right;
+    font-weight: 400;
+    color: white;
+}
+
+.pTextStyle6 {
+    position: absolute;
+    bottom: 12px;
+    left: 90px;
+    line-height: 2;
+    font-size: 12px;
+    text-align: left;
+    font-weight: 400;
+    color: white;
+}
+
+.stepImage {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translate(0%, -50%);
+}
+
+.cameraBtnImage {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    z-index: 1;
+}
+
+.storageBtn{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    z-index: 1,
+}
+
+.coordinatorBtn{
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    z-index: 1;
+}
