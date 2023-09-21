@@ -34,7 +34,7 @@ const Recommend = () => {
         objectFit: "cover",
       }}
     >
-      <div className="header">
+      <div className="Rcmdheader">
         <img
           className="backIcon"
           src={backicon}

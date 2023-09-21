@@ -1,6 +1,7 @@
-.body {
-    overflow: hidden; /* 스크롤을 숨김 처리 */
+body {
+  overflow: hidden; /* 스크롤을 숨김 처리 */
 }
+
 .RcmdContainer {
     overflow: hidden;
     display: flex;
@@ -8,16 +9,14 @@
     background-color: #1E1F23;
 
 }
-.Rcmdheader{
+.header{
     width: 100%;
     height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.backIcon{
-    width: 14px;
-    height: 24px;
-    margin-left: 22px;
-    margin-top: 20px;
-}
+
 .contentTexts{
     margin-left: 20px;
 }
@@ -39,6 +38,41 @@
     font-weight: 400;
     line-height: 1;
     word-wrap: 'break-word';
+}
+.sockColorContain{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    top: 340px;
+    transform: translate(-50%, -50%);
+    width: 220px;
+    height: 240px;
+    border-radius: 20px;
+    background-color: #303237;
+}
+.sockContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sockTextp{
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.sockTexth2{
+    margin: 0;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 1px;
 }
 .RcmdBtn{
     position: absolute;

@@ -132,7 +132,7 @@ const Camera = () => {
       </>
       }
       <img className="storageBtn" src={storageBtn} alt="추천"  onClick={() => navigate('/storageHome')}/>
-      <img className="coordinatorBtn" src={coordinatorBtn} alt="코디" onClick={() => navigate('/rcmd41')}/>
+      <img className="coordinatorBtn" src={coordinatorBtn} alt="코디" onClick={() => navigate('/recommend')}/>
       <img className="focus" src={focus} alt="초점" />
       <img className="stepImage" src={stepImage} alt="스텝" />
       {/* 모달 컴포넌트 */}

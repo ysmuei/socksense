@@ -1,0 +1,128 @@
+body {
+    overflow: hidden; /* 스크롤을 숨김 처리 */
+}
+.RcmdContainer {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background-color: #1E1F23;
+
+}
+.header{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentTexts{
+    margin-left: 20px;
+}
+.contentText1 {
+    margin: 0;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 28;
+    font-family: 'Pretendard';
+    font-weight: 700;
+    line-height: 1.5;
+    word-wrap: 'break-word';
+}
+.contentText2 {
+    margin: 0;
+    color: white;
+    font-size: 16;
+    font-family: 'Pretendard';
+    font-weight: 400;
+    line-height: 1;
+    word-wrap: 'break-word';
+}
+.rcmdContainer{
+    position: absolute;
+    bottom: 180px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.rcmdContent{
+    border: 1px solid #303237;
+    display: flex;
+    align-items: center;
+    width: 286px;
+    margin-bottom: 10px;
+    height: 80px;
+    padding: 0px 32px;
+    border-radius: 16px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background-color: #303237;
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.20);
+}
+.imgContain{
+    margin: 0;
+    margin-right: 16px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btnContainer{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 20px;
+    bottom: 30px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 50px;
+}
+.RcmdEndBtn{
+    bottom: 30px;
+    width: 166px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    background-color: white;
+    border-radius: 16px;
+    border-width: 0;
+}
+.RcmdSaveBtn{
+    bottom: 30px;
+    width: 166px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    background-color: #DDFD5C;
+    border-radius: 16px;
+    border-width: 0;
+}
+.popup{
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    transform: translate(-50%, -50%);
+    background-color: #303237;
+    width: 350px;
+    height: 52px;
+}
+.popupImg{
+    margin-left: 20px;
+    margin-right: 12px;
+}
+.popupText{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
